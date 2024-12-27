@@ -1,0 +1,32 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 600px;
+    
+  }
+  
+  
+  
+  .info-section {
+    max-width: 600px; /* Limit width for better readability */
+    text-align: center;
+  /* Space below info section */
+  }
+  
+  .action-section {
+    padding-top: 100px;
+    text-align: center;
+  }
+  
+  .start-button {
+    padding: 10px 20px;
+    background-color: #457b9d; /* Blue for start button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increase font size */
+  }
+  

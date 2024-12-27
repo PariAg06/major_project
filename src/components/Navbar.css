@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px transparent;
+}
+
+.nav-items ul   {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.nav-items ul li  {
+    padding: 10px;
+    position: relative; /* Position relative for dropdown menu */
+}
+
+.logo {
+    width: 100px;
+}
+
+.diseases-btn  {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Dropdown menu styles */
+.diseases-dropdown {
+    position: relative; /* Position relative to parent */
+}
+
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%; /* Position below the button */
+    left: 0;
+    background-color: #f9f9f9; /* Background color of dropdown */
+    border: 1px solid #ddd; /* Border around dropdown */
+    box-shadow: 0 8px 16px rgba(6, 155, 209, 0.1); /* Shadow for dropdown */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px; /* Width of dropdown */
+    z-index: 1; /* Ensure it appears above other elements */
+}
+
+/* Each dropdown item appears in its own row */
+.dropdown-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Bottom border between items */
+    background-color: #fff; /* Background for dropdown items */
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0; /* Hover effect */
+    cursor: pointer; /* Pointer cursor on hover */
+}
